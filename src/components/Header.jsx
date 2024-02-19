@@ -2,12 +2,12 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 function Header() {
   return (
-    <header>
-        <nav>
-            <div className="logo"><img src="" alt="" /></div>
-            <ul>
+    <header className='bg-blue-500 h-24 flex'>
+        <nav className='container mx-auto flex justify-between items-center '>
+            <div className="logo"><img src="" alt="maktab-logo" className='h-8 w-auto' /></div>
+            <ul className='flex gap-3 text-xl text-white'>
                 <li>
-                    <a href="/home">Asosiy</a>
+                    <a className='' href="/">Asosiy</a>
                 </li>
                 <li>
                     <a href="/staff">Jamoa</a>
@@ -25,6 +25,8 @@ function Header() {
                     <a href="/contact">Boglanish</a>
                 </li>
             </ul>
+           
+            
         </nav>
     </header>
   )

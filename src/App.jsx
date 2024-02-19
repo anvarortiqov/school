@@ -11,15 +11,16 @@ import Blogs from './pages/Blogs'
 import Gallery from './pages/Gallery'
 import About from './pages/About'
 import Contact from './pages/Contact'
+
 function App() {
 
 
   return (
     <>
     <Header/>
-    <main>
+    <main className=''>
       <Routes>
-        <Route path='/home' element={<Home/>} />
+        <Route path='/' element={<Home/>} />
         <Route path='/staff' element={<Staff/>} />
         <Route path='/blogs' element={<Blogs/>} />
         <Route path='/gallery' element={<Gallery/>} />

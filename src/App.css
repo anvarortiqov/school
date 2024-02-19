@@ -1,0 +1,27 @@
+.staff_head{
+  background-image: url(./assets/staff-head-back.png);
+  height: 600px;
+  background-size: cover;
+}
+.contf{
+  border-radius: 20px;
+  box-shadow:15px 15px 8px  #4B00811F;
+  border: 1.5px solid #4B00811F;
+  height: 762px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-sizing: border-box;
+  padding: 10px 30px;
+}
+.contactf-title{
+  text-decoration: underline;
+  padding-bottom: 3px;
+  text-shadow: 8px 5px rgba(211, 211, 211, 0.654);
+  font-size: 32px;
+}
+.gcard-image{
+  width: 380px;
+  height: 280px;
+}
