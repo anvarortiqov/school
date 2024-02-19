@@ -1,8 +1,14 @@
-import React from 'react'
+import Welcome from "../components/Welcome.jsx";
+import Aboutus from "../components/Aboutus.jsx";
 
 function Home() {
   return (
-    <div>Home</div>
+      <>
+        <Welcome/>
+        <Aboutus/>
+
+      </>
+
   )
 }
 

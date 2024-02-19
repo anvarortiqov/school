@@ -1,5 +1,4 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
+
 function Header() {
   return (
     <header className='bg-blue-500 h-24 flex'>

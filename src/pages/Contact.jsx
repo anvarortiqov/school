@@ -1,4 +1,4 @@
-import React from 'react'
+
 import maktab from '../assets/maktab.webp'
 import ContactF from '../components/ContactF'
 function Contact() {
