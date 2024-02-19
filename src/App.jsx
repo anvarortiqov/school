@@ -1,6 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -11,6 +9,7 @@ import Blogs from './pages/Blogs'
 import Gallery from './pages/Gallery'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import News from './pages/News'
 function App() {
 
 
@@ -20,6 +19,7 @@ function App() {
     <main>
       <Routes>
         <Route path='/home' element={<Home/>} />
+        <Route path="/news" component={News} />
         <Route path='/staff' element={<Staff/>} />
         <Route path='/blogs' element={<Blogs/>} />
         <Route path='/gallery' element={<Gallery/>} />

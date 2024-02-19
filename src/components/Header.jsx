@@ -6,7 +6,7 @@ function Header() {
             <div className="logo"><img src="" alt="maktab-logo" className='h-8 w-auto' /></div>
             <ul className='flex gap-3 text-xl text-white'>
                 <li>
-                    <a className='' href="/">Asosiy</a>
+                    <a className='' href="/home">Asosiy</a>
                 </li>
                 <li>
                     <a href="/staff">Jamoa</a>
