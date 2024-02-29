@@ -1,15 +1,15 @@
-import React, { useState } from 'react'
 import GData from '../Data/Gallery'
 import GalleryCard from '../components/GalleryCard'
+import {useState} from "react";
 function Gallery() {
   const [data,setData]=useState(GData) 
   const [category,setCategory]=useState("all")
   const filterImages = (category) => {
   
-    if (category == 'all') {
+    if (category === 'all') {
         setData(GData);
     } else {
-        const filteredImages = GData.filter((image) => image.category == category);
+        const filteredImages = GData.filter((image) => image.category === category);
         setData(filteredImages);
     }
     setCategory(category);

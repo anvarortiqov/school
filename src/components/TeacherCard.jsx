@@ -1,5 +1,4 @@
-import React from 'react';
-import rasm from '../assets/teacher-photo.png'
+    import rasm from '../assets/teacher-photo.png'
 function TeacherCard({  fullname, toifa, tajriba, fan }) {
     return (
         <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white border-gray-300 p-4 border-2 rounded-2xl " >

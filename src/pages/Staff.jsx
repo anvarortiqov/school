@@ -1,4 +1,3 @@
-import React from 'react'
 import TeacherCard from '../components/TeacherCard'
 import Pagination from '../components/Pagination'
 import Teachers from '../Data/Teachers'

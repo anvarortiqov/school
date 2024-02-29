@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -6,26 +7,24 @@ function Header() {
             <div className="logo"><img src="" alt="maktab-logo" className='h-8 w-auto' /></div>
             <ul className='flex gap-3 text-xl text-white'>
                 <li>
-                    <a className='' href="/home">Asosiy</a>
+                    <Link to="/home">Asosiy</Link>
                 </li>
                 <li>
-                    <a href="/staff">Jamoa</a>
+                    <Link to="/staff">Jamoa</Link>
                 </li>
                 <li>
-                    <a href="/blogs">Yangiliklar</a>
+                    <Link to="/blogs">Yangiliklar</Link>
                 </li>
                 <li>
-                    <a href="/gallery">Maktab hayoti</a>
+                    <Link to="/gallery">Maktab hayoti</Link>
                 </li>
                 <li>
-                    <a href="/about">Maktab hayoti</a>
+                    <Link to="/about">Maktab hayoti</Link>
                 </li>
                 <li>
-                    <a href="/contact">Boglanish</a>
+                    <Link to="/contact">Boglanish</Link>
                 </li>
             </ul>
-           
-            
         </nav>
     </header>
   )
